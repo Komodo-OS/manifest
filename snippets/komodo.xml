@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="komodo"
+          fetch="https://github.com/Komodo-OS-Rom"
+          revision="ten" />
+
+  <remote name="komodo-devices"
+          fetch="https://github.com/KomodOSRom-Devices"
+          revision="ten" />
+
+  <!-- CodeAurora additions -->
+  <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom-caf_audio_msm8998" remote="komodo" />
+  <project path="hardware/qcom-caf/sm8150/audio" name="hardware_qcom-caf_audio_sm8150" remote="komodo" />
+  <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_display_msm8998" remote="komodo" />
+  <project path="hardware/qcom-caf/sm8150/display" name="hardware_qcom-caf_display_sm8150" remote="komodo" />
+  <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom-caf_media_msm8998" remote="komodo" />
+  <project path="hardware/qcom-caf/sm8150/media" name="hardware_qcom-caf_media_sm8150" remote="komodo" />
+  <project path="vendor/qcom/opensource/fm-commonsys" name="vendor_qcom_opensource_fm-commonsys" remote="komodo" />
+  <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="komodo" />
+  <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="komodo" />
+
+  <!-- Pathmap -->
+   <project path="hardware/qcom-caf/common" name="hardware_qcom-caf_common" remote="komodo" >
+    <!-- add guard for AOSP hardware/qcom dir -->
+    <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
+    <!-- for AOSP sdm845, we override os_pickup.mk -->
+    <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />
+    <!-- add guards for CAF repositories -->
+    <!-- <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/apq8084/Android.mk" /> -->
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8916/Android.mk" />
+    <!-- <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8952/Android.mk" /> -->
+    <!-- <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8960/Android.mk" /> -->
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8974/Android.mk" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8994/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8996/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8996/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8998/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8998/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/sdm845/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm845/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/pn5xx/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/pn5xx/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/sn100x/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/sn100x/Android.mk" />
+  </project>
+
+  <!-- Framework repos -->
+  <project path="frameworks/av" name="frameworks_av" remote="komodo" />
+  <project path="frameworks/base" name="frameworks_base" remote="komodo" />
+  <project path="frameworks/native" name="frameworks_native" remote="komodo" />
+  <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="komodo" />
+  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="komodo" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="komodo" />
+
+  <!-- General repos -->
+  <project path="art" name="art" remote="komodo" />
+  <project path="bionic" name="bionic" remote="komodo" />
+  <project path="build/make" name="build" remote="komodo">
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="build_soong" remote="komodo" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  <project path="build/blueprint" name="build_blueprint" remote="komodo" />
+  <project path="bootable/recovery" name="bootable_recovery" remote="komodo" />
+  <project path="development" name="development" remote="komodo" />
+  <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="komodo" />
+  <project path="manifest" name="manifest" remote="komodo" />
+  <project path="vendor/komodo" name="vendor_komodo" remote="komodo" />
+  <project path="vendor/pixelstyle" name="vendor_pixelstyle" remote="komodo" />
+
+  <!-- Custom additions -->
+  <project path="prebuilts/tools-custom" name="prebuilts_tools-custom" remote="komodo" clone-depth="1" />
+
+  <!-- Hardware repos -->
+  <project path="hardware/libhardware" name="hardware_libhardware" remote="komodo" />
+  <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="komodo" />
+  <project path="hardware/custom/interfaces" name="hardware_custom_interfaces" remote="komodo" />
+  <project path="hardware/interfaces" name="hardware_interfaces" remote="komodo" />
+
+  <!-- Packages repos -->
+  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="komodo" />
+  <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="komodo" />
+  <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="komodo" />
+  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="komodo" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="komodo" />
+  <!--project path="packages/apps/Snap" name="packages_apps_Snap" remote="komodo" /-->
+  <project path="packages/apps/Traceur" name="packages_apps_Traceur" remote="komodo" />
+  <project path="packages/apps/Updates" name="packages_apps_Updates" remote="komodo" />
+  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="komodo" />
+  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="komodo" />
+  <project path="packages/services/BuiltInPrintService" name="packages_services_BuiltInPrintService" remote="komodo" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="komodo" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="komodo" />
+
+  <!-- External repos -->
+  <project path="external/tinycompress" name="external_tinycompress" remote="komodo" />
+
+  <!-- System Repos -->
+  <project path="system/bt" name="system_bt" remote="komodo" />
+  <project path="system/core" name="system_core" remote="komodo" />
+  <project path="system/netd" name="system_netd" remote="komodo" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="komodo" />
+  <project path="system/update_engine" name="system_update_engine" remote="komodo" />
+  <project path="system/vold" name="system_vold" remote="komodo" />
+
+</manifest>

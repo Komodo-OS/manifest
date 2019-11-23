@@ -797,7 +797,7 @@
   <!-- Add some LineageOS repos -->
   <include name="snippets/lineage.xml" />
 
-  <!-- Add all PixelExperience repos -->
-  <include name="snippets/pixel.xml" />
+  <!-- Add all Komodo OS repos -->
+  <include name="snippets/komodo.xml" />
 
 </manifest>
