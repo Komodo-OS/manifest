@@ -800,7 +800,4 @@
   <!-- Add all Komodo OS repos -->
   <include name="snippets/komodo.xml" />
 
-  <!-- Add some Nitrogen repos -->
-  <include name="snippets/nitrogen.xml" />
-
 </manifest>
