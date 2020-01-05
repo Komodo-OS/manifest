@@ -105,6 +105,7 @@
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="komodo" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="komodo" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="komodo" />
+  <project path="packages/apps/KomodoSettings" name="packages_apps_KomodoSettings" remote="komodo" />
 
   <!-- External repos -->
   <project path="external/tinycompress" name="external_tinycompress" remote="komodo" />
