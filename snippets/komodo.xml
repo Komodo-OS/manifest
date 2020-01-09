@@ -106,6 +106,8 @@
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="komodo" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="komodo" />
   <project path="packages/apps/KomodoSettings" name="packages_apps_KomodoSettings" remote="komodo" />
+  <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="komodo" />
+  <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="komodo" />
 
   <!-- External repos -->
   <project path="external/tinycompress" name="external_tinycompress" remote="komodo" />
