@@ -78,6 +78,7 @@
   <project path="manifest" name="manifest" remote="komodo" />
   <project path="vendor/komodo" name="vendor_komodo" remote="komodo" />
   <project path="vendor/pixelstyle" name="vendor_pixelstyle" remote="komodo" />
+  <project path="vendor/google/customization" name="vendor_google_customization" remote="komodo" />
 
   <!-- Custom additions -->
   <project path="prebuilts/tools-custom" name="prebuilts_tools-custom" remote="komodo" clone-depth="1" />
@@ -119,5 +120,6 @@
   <project path="system/sepolicy" name="system_sepolicy" remote="komodo" />
   <project path="system/update_engine" name="system_update_engine" remote="komodo" />
   <project path="system/vold" name="system_vold" remote="komodo" />
+  <project path="system/apex" name="system_apex" remote="komodo" />
 
 </manifest>
