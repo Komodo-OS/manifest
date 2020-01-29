@@ -6,7 +6,7 @@
           revision="ten" />
 
   <remote name="komodo-devices"
-          fetch="https://github.com/KomodOSRom-Devices"
+          fetch="https://github.com/Komodo-OS-Devices"
           revision="ten" />
 
   <remote name="gitlab"
