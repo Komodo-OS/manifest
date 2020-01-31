@@ -78,7 +78,7 @@
   <project path="build/blueprint" name="build_blueprint" remote="komodo" />
   <project path="bootable/recovery" name="bootable_recovery" remote="komodo" />
   <project path="development" name="development" remote="komodo" />
-  <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="komodo" />
+  <project path="device/komodo/sepolicy" name="device_komodo_sepolicy" remote="komodo" />
   <project path="manifest" name="manifest" remote="komodo" />
   <project path="vendor/komodo" name="vendor_komodo" remote="komodo" />
   <project path="vendor/pixelstyle" name="vendor_pixelstyle" remote="komodo" />
