@@ -119,6 +119,7 @@
   <project path="packages/apps/OmniStyle" name="packages_apps_OmniStyle" remote="komodo" />
 
   <!-- External repos -->
+  <project path="external/skia" name="external_skia" remote="komodo" />
   <project path="external/tinycompress" name="external_tinycompress" remote="komodo" />
 
   <!-- System Repos -->
