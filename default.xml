@@ -8,7 +8,7 @@
   <remote name="github"
           fetch="https://github.com/" />
 
-  <default revision="refs/tags/android-10.0.0_r29"
+  <default revision="refs/tags/android-10.0.0_r31"
            remote="aosp"
            sync-j="4"
            sync-c="true"
@@ -622,7 +622,7 @@
   <project path="packages/apps/TV" name="platform/packages/apps/TV" groups="pdk" />
   <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" groups="pdk-fs" />
   <project path="packages/apps/UniversalMediaPlayer" name="platform/packages/apps/UniversalMediaPlayer" />
-  <project path="packages/apps/WallpaperPicker" name="platform/packages/apps/WallpaperPicker" groups="pdk-fs" />
+  <project path="packages/apps/WallpaperPicker" name="platform/packages/apps/WallpaperPicker" groups="pdk-fs"  />
   <project path="packages/apps/WallpaperPicker2" name="platform/packages/apps/WallpaperPicker2" groups="pdk-fs" />
   <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" groups="pdk-fs" />
   <project path="packages/modules/CaptivePortalLogin" name="platform/packages/modules/CaptivePortalLogin" groups="pdk-cw-fs,pdk-fs" />
@@ -765,6 +765,7 @@
   <project path="toolchain/pgo-profiles" name="toolchain/pgo-profiles" groups="pdk" />
   <project path="tools/acloud" name="platform/tools/acloud" groups="tools,vts,projectarch,pdk,tradefed" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
+  <project path="tools/apifinder" name="platform/tools/apifinder" groups="pdk,tools" />
   <project path="tools/apksig" name="platform/tools/apksig" groups="pdk,tradefed" />
   <project path="tools/apkzlib" name="platform/tools/apkzlib" groups="pdk,tradefed" />
   <project path="tools/asuite" name="platform/tools/asuite" groups="pdk" />
