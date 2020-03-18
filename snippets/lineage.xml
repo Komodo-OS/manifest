@@ -3,7 +3,7 @@
 
   <remote name="lineage"
           fetch="https://github.com/LineageOS"
-          revision="lineage-17.0" />
+          revision="lineage-17.1" />
 
   <!-- CodeAurora additions -->
   <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" revision="lineage-17.0-legacy-um" remote="lineage" />
