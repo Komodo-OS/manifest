@@ -99,7 +99,7 @@
   <!-- Packages repos -->
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="komodo" />
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="komodo" />
-  <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="komodo" />
+  <!--project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="komodo" /-->
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="komodo" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="komodo" />
   <!--project path="packages/apps/Snap" name="packages_apps_Snap" remote="komodo" /-->
@@ -112,7 +112,7 @@
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="komodo" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="komodo" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="komodo" />
-  <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="komodo" />
+  <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="komodo" />
   <project path="packages/apps/KomodoSettings" name="packages_apps_KomodoSettings" remote="komodo" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="komodo" />
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="komodo" />
