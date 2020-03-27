@@ -116,7 +116,7 @@
   <project path="packages/apps/KomodoSettings" name="packages_apps_KomodoSettings" remote="komodo" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="komodo" />
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="komodo" />
-  <project path="packages/apps/Longshot" name="packages_apps_Longshot" remote="komodo" />
+  <!-- project path="packages/apps/Longshot" name="packages_apps_Longshot" remote="komodo" / -->
   <project path="packages/apps/Recorder" name="packages_apps_Recorder" remote="komodo" />
   <project path="packages/apps/OmniStyle" name="packages_apps_OmniStyle" remote="komodo" />
 
