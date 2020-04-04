@@ -98,6 +98,7 @@
 
   <!-- Packages repos -->
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="komodo" />
+  <project path="packages/apps/FirefoxLite" name="packages_apps_FirefoxLite" remote="komodo" />
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="komodo" />
   <!--project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="komodo" /-->
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="komodo" />
