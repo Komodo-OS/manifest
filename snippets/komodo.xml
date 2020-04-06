@@ -125,6 +125,7 @@
   <!-- External repos -->
   <project path="external/skia" name="external_skia" remote="komodo" />
   <project path="external/tinycompress" name="external_tinycompress" remote="komodo" />
+  <project path="external/e2fsprogs" name="external_e2fsprogs" remote="komodo" />
 
   <!-- System Repos -->
   <project path="system/bt" name="system_bt" remote="komodo" />
