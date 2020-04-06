@@ -127,6 +127,7 @@
   <project path="external/tinycompress" name="external_tinycompress" remote="komodo" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="komodo" />
   <project path="external/jemalloc_new" name="android_external_jemalloc-new" remote="komodo" />
+  <project path="external/sqlite" name="android_external_sqlite" remote="komodo" />
 
   <!-- System Repos -->
   <project path="system/bt" name="system_bt" remote="komodo" />
