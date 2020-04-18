@@ -1,4 +1,5 @@
-# Komodo OS (Android 10) #
+# Komodo OS Rom #
+<a href="https://imgur.com/8RoBGQS"><img src="https://i.imgur.com/8RoBGQS.png" title="Banner" height="200" width="450"/></a>
 
 ![SourceForge](https://img.shields.io/sourceforge/dm/komodos-rom.svg?color=red&label=Komodo%20OS%20Downloads&style=popout-square&labelColor=121217&logo=openSUSE)
 
