@@ -77,7 +77,8 @@
   <project path="external/vim" name="android_external_vim" remote="lineage" />
   <project path="external/zip" name="android_external_zip" remote="lineage" />
   <project path="external/libncurses" name="android_external_libncurses" remote="lineage" />
-
+  <project path="external/chromium-webview" name="android_external_chromium-webview" groups="pdk" remote="lineage" revision="master" clone-depth="1" />
+  
   <!-- Prebuilts -->
   <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" remote="lineage" clone-depth="1" />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9" remote="lineage" clone-depth="1" />
