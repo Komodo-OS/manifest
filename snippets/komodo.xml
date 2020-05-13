@@ -138,6 +138,5 @@
   <project path="system/sepolicy" name="system_sepolicy" remote="komodo" />
   <project path="system/update_engine" name="system_update_engine" remote="komodo" />
   <project path="system/vold" name="system_vold" remote="komodo" />
-  <project path="system/apex" name="system_apex" remote="komodo" />
 
 </manifest>
