@@ -88,8 +88,8 @@
   <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy-legacy" remote="komodo" />
 
   <!-- Komodo and The Others -->
-  <project path="manifest" name="manifest" remote="komodo" />
-  <project path="vendor/komodo" name="vendor_komodo" remote="komodo" />
+  <project path="manifest" name="manifest" remote="komodo" revision="dev/ten" />
+  <project path="vendor/komodo" name="vendor_komodo" remote="komododev" />
   <project path="vendor/pixelstyle" name="vendor_pixelstyle" remote="komododev" />
   <project path="vendor/gapps" name="PixelExperience/vendor_gapps" remote="gitlab" clone-depth="1" />
   <project path="vendor/lawnchair" name="android_vendor_lawnchair" remote="komodo" />
