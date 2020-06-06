@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="pixel"
-          fetch="https://github.com/PixelExperience"
+  <remote name="komodo"
+          fetch="https://github.com/Komodo-OS-Rom"
           revision="ten"
-          review="gerrit.pixelexperience.org" />
+          review="gerrit.komodo-os.my.id" />
 
-  <remote name="pixel-devices"
-          fetch="https://github.com/PixelExperience-Devices"
+  <remote name="komodo-devices"
+          fetch="https://github.com/Komodo-OS-Devices"
           revision="ten" />
 
   <remote name="github"
           fetch="https://github.com/" />
 
   <!-- General repos -->
-  <project path="crowdin" name="crowdin" remote="pixel" />
-  <project path="WeatherClient" name="WeatherClient" remote="pixel" revision="master" />
+  <project path="crowdin" name="crowdin" remote="komodo" />
+  <project path="WeatherClient" name="WeatherClient" remote="komodo" revision="master" />
 
   <!-- Framework repos -->
-  <project path="frameworks/base" name="frameworks_base" remote="pixel" />
+  <project path="frameworks/base" name="frameworks_base" remote="komodo" />
 
   <!-- Packages repos -->
-  <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="pixel" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="pixel" />
-  <project path="packages/apps/Updates" name="packages_apps_Updates" remote="pixel" />
-  <project path="packages/providers/AmbientPlayHistoryProvider" name="packages_providers_AmbientPlayHistoryProvider" remote="pixel" />
-  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="pixel" />
-  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="pixel" />
-  <project path="packages/resources/MotoActions" name="packages_resources_MotoActions" remote="pixel" />
-  <project path="packages/resources/OneplusGestures" name="packages_resources_OneplusGestures" remote="pixel" />
+  <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="komodo" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="komodo" />
+  <project path="packages/apps/Updates" name="packages_apps_Updates" remote="komodo" />
+  <project path="packages/providers/AmbientPlayHistoryProvider" name="packages_providers_AmbientPlayHistoryProvider" remote="komodo" />
+  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="komodo" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="komodo" />
+  <project path="packages/resources/MotoActions" name="packages_resources_MotoActions" remote="komodo" />
+  <project path="packages/resources/OneplusGestures" name="packages_resources_OneplusGestures" remote="komodo" />
 
 </manifest>
