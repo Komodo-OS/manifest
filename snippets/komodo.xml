@@ -91,7 +91,6 @@
 
   <!-- Custom additions -->
   <project path="prebuilts/tools-custom" name="prebuilts_tools-custom" remote="komodo" clone-depth="1" />
-  <project path="prebuilts/clang/host/linux-x86" name="komodo-os-rom/prebuilts-clang-host-linux-x86" remote="gitlab" revision="ten" clone-depth="1" />
 
   <!-- Hardware repos -->
   <project path="hardware/libhardware" name="hardware_libhardware" remote="komodo" />
