@@ -29,6 +29,10 @@ $ lunch komodo_$device-userdebug
 $ mka bacon -jX
 ```
 
+### Developer ###
+
+- [Become maintainer for your device](https://github.com/Komodo-OS-Rom/manifest/wiki/Maintainers-Requirements)
+
 ---------------------------------------------------------------------------------------
  Credits:
  =======
