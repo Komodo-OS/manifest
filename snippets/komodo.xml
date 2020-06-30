@@ -131,6 +131,7 @@
   <project path="external/tinycompress" name="external_tinycompress" remote="komodo" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="komodo" />
   <project path="external/sqlite" name="android_external_sqlite" remote="komodo" />
+  <project path="external/libcxx" name="external_libcxx" remote="komodo" />
 
   <!-- System Repos -->
   <project path="system/bt" name="system_bt" remote="komodo" />
@@ -139,5 +140,6 @@
   <project path="system/sepolicy" name="system_sepolicy" remote="komodo" />
   <project path="system/update_engine" name="system_update_engine" remote="komodo" />
   <project path="system/vold" name="system_vold" remote="komodo" />
+  <project path="system/extras" name="system_extras" remote="komodo" />
 
 </manifest>
