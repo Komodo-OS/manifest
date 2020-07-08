@@ -3,7 +3,8 @@
 
   <remote name="komodo"
           fetch="https://github.com/Komodo-OS-Rom"
-          revision="ten" />
+          revision="ten"
+          review="gerrit.komodo-os.my.id" />
 
   <remote name="komodo-devices"
           fetch="https://github.com/Komodo-OS-Devices"
