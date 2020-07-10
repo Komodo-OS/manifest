@@ -141,7 +141,7 @@
   <!-- System Repos -->
   <project path="system/bt" name="system_bt" remote="komodo" />
   <project path="system/core" name="system_core" remote="komodo" />
-  <project path="system/netd" name="system_netd" remote="komodo" />
+  <project path="system/netd" name="system_netd" remote="komododev" />
   <project path="system/sepolicy" name="system_sepolicy" remote="komodo" />
   <project path="system/update_engine" name="system_update_engine" remote="komodo" />
   <project path="system/vold" name="system_vold" remote="komodo" />
