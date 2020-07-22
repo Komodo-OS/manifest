@@ -88,7 +88,6 @@
   <!-- Komodo and The Others -->
   <project path="manifest" name="manifest" remote="komodo" />
   <project path="vendor/komodo" name="vendor_komodo" remote="komodo" />
-  <project path="vendor/pixelstyle" name="vendor_pixelstyle" remote="komodo" />
   <project path="vendor/gapps" name="komodo-os-rom/vendor_gapps_new" remote="gitlab" clone-depth="1" />
 
   <!-- Custom additions -->
