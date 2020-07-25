@@ -28,7 +28,6 @@
   <project path="vendor/qcom/opensource/fm-commonsys" name="vendor_qcom_opensource_fm-commonsys" remote="komodo" />
   <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="komodo" />
   <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="komodo" />
-  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="komodo" />
 
   <!-- Pathmap -->
    <project path="hardware/qcom-caf/common" name="hardware_qcom-caf_common" remote="komodo" >
@@ -85,8 +84,10 @@
   <project path="bootable/recovery" name="bootable_recovery" remote="komododev" />
   <project path="development" name="development" remote="komodo" />
   <project path="device/komodo/sepolicy" name="device_komodo_sepolicy" remote="komodo" />
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="komodo" />
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="komodo" />
   <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy-legacy" remote="komodo" />
+  <project path="device/mediatek/sepolicy" name="device_mediatek_sepolicy" remote="komodo" />
   <project path="platform_testing" name="platform_testing" remote="komodo" />
 
   <!-- Komodo and The Others -->
