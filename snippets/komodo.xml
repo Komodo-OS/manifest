@@ -61,13 +61,13 @@
   <project path="frameworks/av" name="frameworks_av" remote="komododev" />
   <project path="frameworks/base" name="frameworks_base" remote="komododev" />
   <project path="frameworks/native" name="frameworks_native" remote="komododev" />
-  <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="komodo" />
-  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="komodo" />
-  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="komodo" />
+  <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="komododev" />
+  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="komododev" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="komododev" />
 
   <!-- General repos -->
-  <project path="art" name="art" remote="komodo" />
-  <project path="bionic" name="bionic" remote="komodo" />
+  <project path="art" name="art" remote="komododev" />
+  <project path="bionic" name="bionic" remote="komododev" />
   <project path="build/make" name="build" remote="komododev">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -81,8 +81,8 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="build/blueprint" name="build_blueprint" remote="komodo" />
-  <project path="bootable/recovery" name="bootable_recovery" remote="komodo" />
+  <project path="build/blueprint" name="build_blueprint" remote="komododev" />
+  <project path="bootable/recovery" name="bootable_recovery" remote="komododev" />
   <project path="development" name="development" remote="komodo" />
   <project path="device/komodo/sepolicy" name="device_komodo_sepolicy" remote="komodo" />
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="komodo" />
@@ -100,15 +100,15 @@
   <project path="prebuilts/build-tools" name="prebuilts_build-tools" remote="komodo" clone-depth="1" />
   
   <!-- Hardware repos -->
-  <project path="hardware/libhardware" name="hardware_libhardware" remote="komodo" />
-  <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="komodo" />
-  <project path="hardware/custom/interfaces" name="hardware_custom_interfaces" remote="komodo" />
-  <project path="hardware/interfaces" name="hardware_interfaces" remote="komodo" />
+  <project path="hardware/libhardware" name="hardware_libhardware" remote="komododev" />
+  <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="komododev" />
+  <project path="hardware/custom/interfaces" name="hardware_custom_interfaces" remote="komododev" />
+  <project path="hardware/interfaces" name="hardware_interfaces" remote="komododev" />
 
   <!-- Packages repos -->
-  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="komodo" />
-  <project path="packages/apps/FirefoxLite" name="packages_apps_FirefoxLite" remote="komodo" />
-  <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="komodo" />
+  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="komododev" />
+  <project path="packages/apps/FirefoxLite" name="packages_apps_FirefoxLite" remote="komododev" />
+  <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="komododev" />
   <!--project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="komodo" -->
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="komodo" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="komododev" />
@@ -119,17 +119,17 @@
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="komodo" />
   <project path="packages/services/BuiltInPrintService" name="packages_services_BuiltInPrintService" remote="komodo" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="komodo" />
-  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="komodo" />
-  <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="komodo" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="komododev" />
+  <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="komododev" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="komodo" />
-  <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="komodo" />
+  <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="komododev" />
   <project path="packages/apps/KomodoSettings" name="packages_apps_KomodoSettings" remote="komododev" />
-  <project path="packages/apps/KomodoIsland" name="packages_apps_KomodoIsland" remote="komodo" />
+  <project path="packages/apps/KomodoIsland" name="packages_apps_KomodoIsland" remote="komododev" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="komododev" />
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="komodo" />
   <!-- project path="packages/apps/Longshot" name="packages_apps_Longshot" remote="komodo" / -->
   <project path="packages/apps/Recorder" name="packages_apps_Recorder" remote="komododev" />
-  <project path="packages/apps/OmniStyle" name="packages_apps_OmniStyle" remote="komodo" />
+  <project path="packages/apps/OmniStyle" name="packages_apps_OmniStyle" remote="komododev" />
 
   <!-- External repos -->
   <project path="external/skia" name="external_skia" remote="komodo" />
@@ -139,12 +139,12 @@
   <project path="external/libcxx" name="external_libcxx" remote="komodo" />
 
   <!-- System Repos -->
-  <project path="system/bt" name="system_bt" remote="komodo" />
-  <project path="system/core" name="system_core" remote="komodo" />
-  <project path="system/netd" name="system_netd" remote="komodo" />
-  <project path="system/sepolicy" name="system_sepolicy" remote="komodo" />
-  <project path="system/update_engine" name="system_update_engine" remote="komodo" />
-  <project path="system/vold" name="system_vold" remote="komodo" />
-  <project path="system/extras" name="system_extras" remote="komodo" />
+  <project path="system/bt" name="system_bt" remote="komododev" />
+  <project path="system/core" name="system_core" remote="komododev" />
+  <project path="system/netd" name="system_netd" remote="komododev" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="komododev" />
+  <project path="system/update_engine" name="system_update_engine" remote="komododev" />
+  <project path="system/vold" name="system_vold" remote="komododev" />
+  <project path="system/extras" name="system_extras" remote="komododev" />
 
 </manifest>
