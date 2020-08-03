@@ -136,7 +136,7 @@
   <project path="external/skia" name="external_skia" remote="komodo" />
   <project path="external/tinycompress" name="external_tinycompress" remote="komodo" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="komodo" />
-  <project path="external/sqlite" name="android_external_sqlite" remote="komodo" />
+  <project path="external/sqlite" name="external_sqlite" remote="komodo" />
   <project path="external/libcxx" name="external_libcxx" remote="komodo" />
 
   <!-- System Repos -->
