@@ -24,6 +24,7 @@
   <project path="vendor/qcom/opensource/fm-commonsys" name="vendor_qcom_opensource_fm-commonsys" remote="komodo" />
   <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="komodo" />
   <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="komodo" />
+  <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="vendor_qcom_opensource_commonsys_packages_apps_Bluetooth" remote="komodo" />
 
   <!-- Pathmap -->
    <project path="hardware/qcom-caf/common" name="hardware_qcom-caf_common" remote="komodo" >
