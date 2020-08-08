@@ -97,7 +97,7 @@
   <project path="vendor/gapps" name="komodo-os-rom/vendor_gapps_new" remote="gitlab" clone-depth="1" />
 
   <!-- Custom additions -->
-  <project path="prebuilts/tools-custom" name="prebuilts_tools-custom" remote="komodo" clone-depth="1" />
+  <project path="prebuilts/tools-komodo" name="prebuilts_tools-custom" remote="komodo" clone-depth="1" />
   <project path="prebuilts/clang/host/linux-x86" name="komodo-os-rom/prebuilts-clang-host-linux-x86" remote="gitlab" revision="ten" clone-depth="1" />
   <project path="prebuilts/build-tools" name="prebuilts_build-tools" remote="komodo" clone-depth="1" />
   
