@@ -93,7 +93,9 @@
 
   <!-- Komodo and The Others -->
   <project path="manifest" name="manifest" remote="komodo" revision="dev/ten" />
-  <project path="vendor/komodo" name="vendor_komodo" remote="komododev" />
+  <project path="vendor/komodo" name="vendor_komodo" remote="komododev" >
+    <copyfile src="masak.sh" dest="masak" />
+  </project>
   <project path="vendor/gapps" name="komodo-os-rom/vendor_gapps_new" remote="gitlab" clone-depth="1" />
 
   <!-- Custom additions -->
