@@ -80,6 +80,7 @@
   <project path="build/blueprint" name="build_blueprint" remote="komodo" />
   <project path="bootable/recovery" name="bootable_recovery" remote="komodo" />
   <project path="development" name="development" remote="komodo" />
+  <project path="libcore" name="libcore"  remote="komodo" />
   <project path="device/komodo/sepolicy" name="device_komodo_sepolicy" remote="komodo" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="komodo" />
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="komodo" />
