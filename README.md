@@ -29,7 +29,7 @@ $ . build/envsetup.sh
 $ lunch komodo_$device-userdebug
 
 # Build the code
-$ mka bacon -jX
+$ masak komodo -jX
 ```
 
 ### Developer ###
