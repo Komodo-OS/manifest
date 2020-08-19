@@ -131,6 +131,7 @@
   <!-- project path="packages/apps/Longshot" name="packages_apps_Longshot" remote="komodo" / -->
   <project path="packages/apps/Recorder" name="packages_apps_Recorder" remote="komodo" />
   <project path="packages/apps/OmniStyle" name="packages_apps_OmniStyle" remote="komodo" />
+  <project path="packages/apps/Plugins" name="packages_apps_Plugins" remote="komodo" />
 
   <!-- External repos -->
   <project path="external/skia" name="external_skia" remote="komodo" />
