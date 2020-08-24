@@ -95,7 +95,8 @@
   <!-- Custom additions -->
   <project path="prebuilts/tools-custom" name="prebuilts_tools-custom" remote="komodo" clone-depth="1" />
   <project path="prebuilts/build-tools" name="prebuilts_build-tools" remote="komodo" clone-depth="1" />
-  
+  <project path="prebuilts/prebuiltapks" name="android_prebuilts_prebuiltapks" remote="komodo" revision="master" />
+ 
   <!-- Hardware repos -->
   <project path="hardware/libhardware" name="hardware_libhardware" remote="komodo" />
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="komodo" />
@@ -136,6 +137,7 @@
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="komodo" />
   <project path="external/sqlite" name="external_sqlite" remote="komodo" />
   <project path="external/libcxx" name="external_libcxx" remote="komodo" />
+  <project path="external/bromite-webview" name="android_external_bromite-webview" remote="komodo" revision="master" />
 
   <!-- System Repos -->
   <project path="system/bt" name="system_bt" remote="komodo" />
