@@ -138,6 +138,7 @@
   <project path="external/sqlite" name="external_sqlite" remote="komodo" />
   <project path="external/libcxx" name="external_libcxx" remote="komodo" />
   <project path="external/bromite-webview" name="android_external_bromite-webview" remote="komodo" revision="master" />
+  <project path="external/airbnb-lottie" name="external_airbnb-lottie" remote="komodo" />
 
   <!-- System Repos -->
   <project path="system/bt" name="system_bt" remote="komodo" />
