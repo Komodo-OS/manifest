@@ -834,9 +834,6 @@
   <!-- Remove unused AOSP repos -->
   <include name="snippets/remove.xml" />
 
-  <!-- Add some LineageOS repos -->
-  <include name="snippets/lineage.xml" />
-
   <!-- Add all Komodo OS repos -->
   <include name="snippets/komodo.xml" />
 
