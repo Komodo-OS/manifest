@@ -29,6 +29,7 @@
   <remove-project name="device/google/fuchsia" />
   <remove-project name="device/google/muskie" />
   <remove-project name="device/google/taimen" />
+  <remove-project name="device/google/trout" />
   <remove-project name="device/google/vrservices" />
   <remove-project name="device/google/wahoo" />
   <remove-project name="device/google/wahoo-kernel" />
