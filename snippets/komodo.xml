@@ -47,6 +47,7 @@
 
   <!-- Hardware repos -->
   <project path="hardware/libhardware" name="hardware_libhardware" remote="komodo" />
+  <project name="vendor_qcom_opensource_data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr" remote="komodo" />
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="komodo" />
   <project path="hardware/komodo/interfaces" name="hardware_komodo_interfaces" remote="komodo" />
   <project path="hardware/interfaces" name="hardware_interfaces" remote="komodo" />
