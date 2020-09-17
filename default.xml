@@ -837,4 +837,7 @@
   <!-- Add all Komodo OS repos -->
   <include name="snippets/komodo.xml" />
 
+  <!-- Lineage OS repo -->
+  <include name="snippets/lineage.xml" />
+
 </manifest>
