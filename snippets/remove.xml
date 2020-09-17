@@ -50,12 +50,20 @@
   <remove-project name="platform/hardware/qcom/gps"/>
   <remove-project name="platform/hardware/qcom/media"/>
 
+  <!-- Framework -->
   <remove-project name="platform/frameworks/base" />
 
+  <!-- Build -->
   <remove-project name="platform/build" />
   <remove-project name="platform/build/soong" />
   <remove-project name="platform/build/blueprint" />
 
+  <!-- Packages/APPS -->
   <remove-project name="platform/packages/apps/Settings" />
+
+  <!-- Hardware -->
+  <remove-project name="platform/hardware/interfaces" />
+  <remove-project name="platform/hardware/libhardware" />
+  <remove-project name="platform/hardware/libhardware_legacy" />
 
 </manifest>
