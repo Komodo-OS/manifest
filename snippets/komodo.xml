@@ -10,6 +10,9 @@
           fetch="https://github.com/Komodo-OS-Devices"
           revision="ten" />
 
+  <remote name="komodo-ssh"
+          fetch="ssh://git@github.com" />
+
   <remote name="gitlab"
           fetch="https://gitlab.com"
           revision="ten" />
