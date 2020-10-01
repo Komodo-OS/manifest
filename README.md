@@ -31,6 +31,8 @@ $ lunch komodo_$device-userdebug
 # Build the code
 $ masak komodo -jX
 ```
+### Report build issues ###
+- You can reach us via [Telegram](https://t.me/KomodOSGroup)
 
 ### Developer ###
 
