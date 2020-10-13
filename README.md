@@ -43,5 +43,8 @@ $ masak komodo -jX
  * [**LineageOS**](https://github.com/LineageOS)
  * [**AOSiP**](https://github.com/AOSiP)
  * [**PixelExperience**](https://github.com/PixelExperience)
+ * [**POSP**](https://github.com/PotatoProject)
+ * [**Nusantara**](https://github.com/Nusantara-ROM)
+ * [**LegionOS**](https://github.com/Project-LegionOS)
 
 ---------------------------------------------------------------------------------------
