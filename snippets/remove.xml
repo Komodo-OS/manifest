@@ -55,9 +55,14 @@
   <remove-project name="platform/frameworks/native" />
 
   <!-- Build -->
+  <remove-project name="platform/art" />
+  <remove-project name="platform/bionic" />
   <remove-project name="platform/build" />
   <remove-project name="platform/build/soong" />
   <remove-project name="platform/build/blueprint" />
+
+  <!-- System -->
+  <remove-project name="platform/system/core" />
 
   <!-- Packages/APPS -->
   <remove-project name="platform/packages/apps/Settings" />

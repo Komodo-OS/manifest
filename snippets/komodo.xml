@@ -15,6 +15,8 @@
           revision="11" />
 
   <!-- General repos -->
+  <project path="art" name="art" remote="komodo" />
+  <project path="bionic" name="bionic" remote="komodo" />
   <project path="build/make" name="build" remote="komodo">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -63,6 +65,9 @@
   <!-- Framework repos -->
   <project path="frameworks/base" name="frameworks_base" remote="komodo" />
   <project path="frameworks/native" name="frameworks_native" remote="komodo" />
+
+  <!-- System Repos -->
+  <project path="system/core" name="system_core" remote="komodo" />
 
   <!-- Packages repos -->
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="komodo" />
