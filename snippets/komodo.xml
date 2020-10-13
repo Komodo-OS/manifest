@@ -14,9 +14,6 @@
           fetch="https://gitlab.com"
           revision="11" />
 
-  <!-- Framework repos -->
-  <project path="frameworks/base" name="frameworks_base" remote="komodo" />
-
   <!-- General repos -->
   <project path="build/make" name="build" remote="komodo">
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -57,6 +54,9 @@
     <copyfile src="masak.sh" dest="masak" />
   </project>
   <!-- <project path="vendor/gapps" name="komodo-os-rom/vendor_gapps_new" remote="gitlab" clone-depth="1" /> -->
+  
+  <!-- Framework repos -->
+  <project path="frameworks/base" name="frameworks_base" remote="komodo" />
 
   <!-- Packages repos -->
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="komodo" />
