@@ -62,6 +62,7 @@
   
   <!-- Framework repos -->
   <project path="frameworks/base" name="frameworks_base" remote="komodo" />
+  <project path="frameworks/native" name="frameworks_native" remote="komodo" />
 
   <!-- Packages repos -->
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="komodo" />
