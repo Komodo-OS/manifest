@@ -95,4 +95,7 @@
   <!-- Sepolicy -->
   <remove-project name="platform/system/sepolicy" />
 
+  <!-- External -->
+  <remove-project name="platform/external/selinux" />
+
 </manifest>
