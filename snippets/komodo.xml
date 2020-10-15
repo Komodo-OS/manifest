@@ -68,9 +68,15 @@
 
   <!-- System Repos -->
   <project path="system/core" name="system_core" remote="komodo" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="komodo" />
 
   <!-- Packages repos -->
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="komodo" />
+
+  <!-- Sepolicy -->
+  <project path="device/komodo/sepolicy" name="device_komodo_sepolicy" remote="komodo" />
+  <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="komodo" />
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="komodo" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="komodo" />
