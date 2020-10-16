@@ -84,7 +84,6 @@
   <remove-project name="platform/hardware/qcom/msm8x84" />
   <remove-project name="platform/hardware/qcom/power" />
   <remove-project name="platform/hardware/ril" />
-  <remove-project name="platform/hardware/qcom/keymaster" />
 
   <!-- Prebuilts -->
   <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
