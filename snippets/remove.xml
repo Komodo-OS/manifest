@@ -98,4 +98,7 @@
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/fastrpc" />
 
+  <!-- Recovery -->
+  <remove-project name="platform/bootable/recovery" />
+
 </manifest>

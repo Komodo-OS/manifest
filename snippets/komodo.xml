@@ -97,5 +97,8 @@
   <!-- External -->
   <project name="external_selinux" path="external/selinux" remote="komodo" />
   <project name="external_fastrpc" path="external/fastrpc" remote="komodo" />
+  
+  <!-- Recovery -->
+  <project name="bootable_recovery" path="bootable/recovery" remote="komodo" />
 
 </manifest>
