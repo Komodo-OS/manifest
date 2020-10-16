@@ -96,5 +96,6 @@
 
   <!-- External -->
   <project name="external_selinux" path="external/selinux" remote="komodo" />
+  <project name="external_fastrpc" path="external/fastrpc" remote="komodo" />
 
 </manifest>
