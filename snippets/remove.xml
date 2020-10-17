@@ -69,6 +69,7 @@
   <!-- Framework -->
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/native" />
+  <remove-project name="platform/frameworks/av" />
 
   <!-- Build -->
   <remove-project name="platform/art" />

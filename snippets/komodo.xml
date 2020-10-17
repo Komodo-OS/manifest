@@ -70,6 +70,7 @@
   <!-- Framework repos -->
   <project path="frameworks/base" name="frameworks_base" remote="komodo" />
   <project path="frameworks/native" name="frameworks_native" remote="komodo" />
+  <project path="frameworks/av" name="frameworks_av" remote="komodo" />
 
   <!-- System Repos -->
   <project path="system/core" name="system_core" remote="komodo" />
