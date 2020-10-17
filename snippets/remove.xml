@@ -2,7 +2,10 @@
 <manifest>
 
   <!-- Obsolete Packages -->
+  <remove-project name="device/amlogic/yukawa" />
+  <remove-project name="device/amlogic/yukawa-kernel" />
   <remove-project name="device/common" />
+  <remove-project name="device/generic/art" />
   <remove-project name="device/generic/arm64" />
   <remove-project name="device/generic/armv7-a-neon" />
   <remove-project name="device/generic/car" />
@@ -16,10 +19,17 @@
   <remove-project name="device/generic/opengl-transport" />
   <remove-project name="device/generic/qemu" />
   <remove-project name="device/generic/uml" />
+  <remove-project name="device/generic/trusty" />
   <remove-project name="device/generic/x86" />
   <remove-project name="device/generic/x86_64" />
   <remove-project name="device/google/atv" />
+  <remove-project name="device/google/bonito" />
+  <remove-project name="device/google/bonito-kernel" />
+  <remove-project name="device/google/bonito-sepolicy" />
   <remove-project name="device/google/contexthub" />
+  <remove-project name="device/google/coral" />
+  <remove-project name="device/google/coral-kernel" />
+  <remove-project name="device/google/coral-sepolicy" />
   <remove-project name="device/google/crosshatch"/>
   <remove-project name="device/google/crosshatch-kernel"/>
   <remove-project name="device/google/crosshatch-sepolicy"/>
@@ -28,6 +38,9 @@
   <remove-project name="device/google/cuttlefish_vmm" />
   <remove-project name="device/google/fuchsia" />
   <remove-project name="device/google/muskie" />
+  <remove-project name="device/google/sunfish" />
+  <remove-project name="device/google/sunfish-kernel" />
+  <remove-project name="device/google/sunfish-sepolicy" />
   <remove-project name="device/google/taimen" />
   <remove-project name="device/google/trout" />
   <remove-project name="device/google/vrservices" />
@@ -49,6 +62,9 @@
   <remove-project name="platform/hardware/qcom/display"/>
   <remove-project name="platform/hardware/qcom/gps"/>
   <remove-project name="platform/hardware/qcom/media"/>
+  <remove-project name="device/mediatek/wembley-sepolicy" />
+  <remove-project name="device/ti/beagle-x15" />
+  <remove-project name="device/ti/beagle-x15-kernel" />
 
   <!-- Framework -->
   <remove-project name="platform/frameworks/base" />
@@ -65,7 +81,13 @@
   <remove-project name="platform/system/core" />
 
   <!-- Packages/APPS -->
+  <remove-project name="platform/packages/apps/Protips" />
+  <remove-project name="platform/packages/apps/SampleLocationAttribution" />
   <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/packages/apps/SoundRecorder" />
+  <remove-project name="platform/packages/apps/SpareParts" />
+  <remove-project name="platform/packages/apps/Terminal" />
+  <remove-project name="platform/packages/apps/Test/connectivity" />
 
   <!-- Hardware -->
   <remove-project name="platform/hardware/interfaces" />
