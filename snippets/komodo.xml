@@ -134,6 +134,8 @@
   <project path="packages/apps/Recorder" name="packages_apps_Recorder" remote="komodo" />
   <project path="packages/apps/OmniStyle" name="packages_apps_OmniStyle" remote="komodo" />
   <project path="packages/apps/Plugins" name="packages_apps_Plugins" remote="komodo" />
+  <project path="packages/apps/CellBroadcastReceiver" name="packages_apps_CellBroadcastReceiver" remote="komodo" />
+  <project path="packages/apps/PermissionController" name="packages_apps_PackageInstaller" remote="komodo" />
 
   <!-- External repos -->
   <project path="external/skia" name="external_skia" remote="komodo" />
@@ -143,6 +145,9 @@
   <project path="external/libcxx" name="external_libcxx" remote="komodo" />
   <project path="external/bromite-webview" name="android_external_bromite-webview" remote="komodo" revision="master" />
   <project path="external/airbnb-lottie" name="external_airbnb-lottie" remote="komodo" />
+  <project path="external/aac" name="external_aac" remote="komodo" />
+  <project path="external/libexif" name="external_libexif" remote="komodo" />
+  <project path="external/freetype" name="external_freetype" remote="komodo" />
 
   <!-- System Repos -->
   <project path="system/bt" name="system_bt" remote="komodo" />
@@ -152,5 +157,6 @@
   <project path="system/update_engine" name="system_update_engine" remote="komodo" />
   <project path="system/vold" name="system_vold" remote="komodo" />
   <project path="system/extras" name="system_extras" remote="komodo" />
+  <project path="system/nfc" name="system_nfc" remote="komodo" />
 
 </manifest>
