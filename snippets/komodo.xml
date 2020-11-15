@@ -43,6 +43,7 @@
   </project>
 
   <!-- External -->
+  <project path="external/airbnb-lottie" name="external_airbnb-lottie" remote="komodo" />
   <project path="external/exfatprogs" name="external_exfatprogs" remote="komodo" />
 
   <!-- HAL CAF -->
