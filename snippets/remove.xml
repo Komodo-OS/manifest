@@ -80,6 +80,7 @@
 
   <!-- System -->
   <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/vold" />
 
   <!-- Packages/APPS -->
   <remove-project name="platform/packages/apps/Protips" />
