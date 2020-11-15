@@ -97,6 +97,7 @@
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="komodo" />
 
   <!-- Prebuilts -->
+  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="komodo" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="komodo" />
   <project path="prebuilts/build-tools" name="prebuilts_build-tools" remote="komodo" />
