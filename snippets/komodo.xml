@@ -98,6 +98,9 @@
   <project path="prebuilts/tools-komodo" name="prebuilts_tools-komodo" remote="komodo" />
   <project path="prebuilts/abi-dumps/vndk" name="prebuilts_abi-dumps_vndk" remote="komodo" />
 
+  <!-- Vendor -->
+  <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="komodo" />
+
   <!-- Vendor qcom -->
   <project name="vendor_qcom_opensource_data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr" remote="komodo" />
   <project name="vendor_qcom_opensource_interfaces" path="vendor/qcom/opensource/interfaces" remote="komodo" />
