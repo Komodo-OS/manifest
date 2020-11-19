@@ -66,8 +66,8 @@
   <!-- Hardware repos -->
   <project path="hardware/libhardware" name="hardware_libhardware" remote="komodo" />
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="komodo" />
-  <project path="hardware/komodo/interfaces" name="hardware_komodo_interfaces" remote="komodo" />
-  <project path="hardware/interfaces" name="hardware_interfaces" remote="komodo" />
+  <project path="hardware/komodo/interfaces" name="hardware_komodo_interfaces" remote="komodo" revision="11-dev" />
+  <project path="hardware/interfaces" name="hardware_interfaces" remote="komodo" revision="11-dev" />
 
   <!-- Komodo and The Others -->
   <project path="manifest" name="manifest" remote="komodo" revision="11-dev" />
