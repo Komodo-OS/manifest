@@ -70,7 +70,7 @@
   <project path="hardware/interfaces" name="hardware_interfaces" remote="komodo" />
 
   <!-- Komodo and The Others -->
-  <project path="manifest" name="manifest" remote="komodo" />
+  <project path="manifest" name="manifest" remote="komodo" revision="11-dev" />
   <project path="vendor/komodo" name="vendor_komodo" remote="komodo" >
     <copyfile src="masak.sh" dest="masak" />
   </project>
