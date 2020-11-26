@@ -89,6 +89,7 @@
   <!-- Packages repos -->
   <project path="packages/apps/KomodoSettings" name="packages_apps_KomodoSettings" remote="komodo" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="komodo" />
+  <project path="packages/apps/KomodoIsland" name="packages_apps_KomodoIsland" remote="komodo" />
 
   <!-- Sepolicy -->
   <project path="device/komodo/sepolicy" name="device_komodo_sepolicy" remote="komodo" />
