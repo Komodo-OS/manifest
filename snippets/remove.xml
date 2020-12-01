@@ -84,6 +84,7 @@
   <!-- System -->
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/vold" />
+  <remove-project name="platform/system/update_engine" />
 
   <!-- Packages/APPS -->
   <remove-project name="platform/packages/apps/Protips" />
@@ -94,6 +95,7 @@
   <remove-project name="platform/packages/apps/Terminal" />
   <remove-project name="platform/packages/apps/Test/connectivity" />
   <remove-project name="platform/packages/apps/Launcher3" />
+  <remove-project name="platform/packages/apps/Nfc" />
 
   <!-- Hardware -->
   <remove-project name="platform/hardware/interfaces" />
