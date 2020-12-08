@@ -68,6 +68,7 @@
   <remove-project name="platform/external/aac" />
   <remove-project name="platform/external/libexif" />
   <remove-project name="platform/external/freetype" />
+  <remove-project name="platform/external/libaom" />
 
   <!-- Framework repos -->
   <remove-project name="platform/frameworks/av" />

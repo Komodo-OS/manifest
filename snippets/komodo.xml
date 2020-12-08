@@ -148,6 +148,7 @@
   <project path="external/aac" name="external_aac" remote="komodo" />
   <project path="external/libexif" name="external_libexif" remote="komodo" />
   <project path="external/freetype" name="external_freetype" remote="komodo" />
+  <project path="external/libaom" name="external_libaom" remote="komodo" />
 
   <!-- System Repos -->
   <project path="system/bt" name="system_bt" remote="komodo" />
