@@ -42,7 +42,6 @@
   <remove-project name="device/google/sunfish-sepolicy" />
   <remove-project name="device/google/trout" />
   <remove-project name="device/google/vrservices" />
-  <remove-project name="device/google/wahoo-kernel" />
   <remove-project name="device/google_car" />
   <remove-project name="device/linaro/bootloader/OpenPlatformPkg" />
   <remove-project name="device/linaro/bootloader/arm-trusted-firmware" />
