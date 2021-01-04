@@ -118,7 +118,8 @@
   <project name="vendor_qcom_opensource_healthd-ext" path="vendor/qcom/opensource/healthd-ext" remote="komodo" />
   <project name="vendor_qcom_opensource_fm-commonsys" path="vendor/qcom/opensource/fm-commonsys" remote="komodo" />
   <project name="vendor_qcom_opensource_audio" path="vendor/qcom/opensource/audio" remote="komodo" />
- 
+  <project name="vendor_qcom_opensource_interfaces" path="vendor/qcom/opensource/interfaces" remote="komodo" />
+
   <!-- External -->
   <project name="external_selinux" path="external/selinux" remote="komodo" />
   <project name="external_fastrpc" path="external/fastrpc" remote="komodo" />
