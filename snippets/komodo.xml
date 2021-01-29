@@ -94,6 +94,10 @@
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="komodo" />
   <project path="packages/apps/KomodoIsland" name="packages_apps_KomodoIsland" remote="komodo" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="komodo" />
+  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="komodo" />
+
+  <!-- Packages service -->
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="komodo" />
 
   <!-- Sepolicy -->
   <project path="device/komodo/sepolicy" name="device_komodo_sepolicy" remote="komodo" />
