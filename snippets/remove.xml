@@ -69,6 +69,7 @@
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/frameworks/av" />
+  <remove-project name="platform/frameworks/opt/telephony" />
 
   <!-- Build -->
   <remove-project name="platform/art" />
@@ -96,6 +97,7 @@
 
   <!-- Packages service -->
   <remove-project name="platform/packages/services/Telecomm" />
+  <remove-project name="platform/packages/services/Telephony" />
 
   <!-- Hardware -->
   <remove-project name="platform/hardware/interfaces" />

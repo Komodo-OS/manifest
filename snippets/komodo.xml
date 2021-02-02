@@ -82,6 +82,7 @@
   <project path="frameworks/base" name="frameworks_base" remote="komodo" />
   <project path="frameworks/native" name="frameworks_native" remote="komodo" />
   <project path="frameworks/av" name="frameworks_av" remote="komodo" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="komodo" />
 
   <!-- System Repos -->
   <project path="system/core" name="system_core" remote="komodo" />
@@ -98,6 +99,7 @@
 
   <!-- Packages service -->
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="komodo" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="komodo" />
 
   <!-- Sepolicy -->
   <project path="device/komodo/sepolicy" name="device_komodo_sepolicy" remote="komodo" />
