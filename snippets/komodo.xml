@@ -89,6 +89,7 @@
   <project path="system/sepolicy" name="system_sepolicy" remote="komodo" />
   <project path="system/vold" name="system_vold" remote="komodo" />
   <project path="system/update_engine" name="system_update_engine" remote="komodo" />
+  <project path="system/bt" name="system_bt" remote="komodo" />
 
   <!-- Packages repos -->
   <project path="packages/apps/KomodoSettings" name="packages_apps_KomodoSettings" remote="komodo" />
