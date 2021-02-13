@@ -82,6 +82,7 @@
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/vold" />
   <remove-project name="platform/system/update_engine" />
+  <remove-project name="platform/system/bt" />
 
   <!-- Packages/APPS -->
   <remove-project name="platform/packages/apps/Protips" />
