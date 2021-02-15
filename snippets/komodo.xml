@@ -76,7 +76,8 @@
   <project path="vendor/komodo" name="vendor_komodo" remote="komodo" >
     <copyfile src="masak.sh" dest="masak" />
   </project>
-  <!-- <project path="vendor/gapps" name="komodo-os-rom/vendor_gapps_new" remote="gitlab" clone-depth="1" /> -->
+  <project path="vendor/google/gms" name="NusantaraProject/vendor_google_gms" remote="gitlab" revision="11" />
+  <project path="vendor/google/pixel" name="NusantaraProject/vendor_google_pixel" remote="gitlab" revision="11" />
   
   <!-- Framework repos -->
   <project path="frameworks/base" name="frameworks_base" remote="komodo" />
