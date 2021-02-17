@@ -127,6 +127,7 @@
 
   <!-- Sepolicy -->
   <remove-project name="platform/system/sepolicy" />
+  <remove-project name="platform/external/chromium-webview" />
 
   <!-- External -->
   <remove-project name="platform/external/selinux" />

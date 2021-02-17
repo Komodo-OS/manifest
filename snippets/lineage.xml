@@ -11,6 +11,7 @@
   <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="lineage" />
   <project path="external/json-c" name="android_external_json-c" remote="lineage" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="lineage" />
+  <project path="external/chromium-webview" name="android_external_chromium-webview" clone-depth="1" remote="lineage" revision="master" />
 
   <!-- Hardware -->
   <project path="hardware/qcom-caf/vr" name="android_hardware_qcom_vr" remote="lineage" />
