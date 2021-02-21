@@ -46,6 +46,9 @@
     
   </project>
 
+  <!--Device CAF -->
+  <project path="device/qcom/common" name="StatiXOS/android_device_qcom_common" remote="github" revision="11" />
+
   <!-- External -->
   <project path="external/airbnb-lottie" name="external_airbnb-lottie" remote="komodo" />
   <project path="external/exfatprogs" name="external_exfatprogs" remote="komodo" />
@@ -136,6 +139,7 @@
   <project name="vendor_qcom_opensource_audio" path="vendor/qcom/opensource/audio" remote="komodo" />
   <project name="vendor_qcom_opensource_interfaces" path="vendor/qcom/opensource/interfaces" remote="komodo" />
   <project name="vendor_qcom_opensource_power" path="vendor/qcom/opensource/power" remote="komodo" />
+  <project path="vendor/qcom/common" name="ThankYouMario/proprietary_vendor_qcom_common" remote="github" revision="ruby" />
 
   <!-- External -->
   <project name="external_selinux" path="external/selinux" remote="komodo" />
