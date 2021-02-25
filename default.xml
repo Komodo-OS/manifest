@@ -804,4 +804,7 @@
   <!-- Add all Komodo OS repos -->
   <include name="snippets/komodo.xml" />
 
+  <!-- Add some AOSiP repos -->
+  <include name="snippets/aosip.xml" />
+
 </manifest>

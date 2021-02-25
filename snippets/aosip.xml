@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="aosip"
+           fetch="https://github.com/AOSiP"
+           revision="refs/heads/ten" />
+
+  <!-- External -->
+  <project path="external/gptfdisk" name="platform_external_gptfdisk" remote="aosip" />
+
+  <!-- Frameworks -->
+  <project path="frameworks/minikin" name="platform_frameworks_minikin" remote="aosip" />
+
+  <!-- System -->
+  <project path="system/security" name="platform_system_security" remote="aosip" />
+
+</manifest>
