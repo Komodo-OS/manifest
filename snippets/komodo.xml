@@ -100,6 +100,7 @@
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="komodo" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="komodo" />
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="komodo" />
+  <project path="packages/apps/Updates" name="packages_apps_Updates" remote="komodo" />
 
   <!-- Packages service -->
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="komodo" />
