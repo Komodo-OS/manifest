@@ -73,6 +73,8 @@
   <remove-project name="platform/external/libavc" />
   <remove-project name="platform/external/okhttp" />
   <remove-project name="platform/external/wpa_supplicant_8" />
+  <remove-project name="platform/external/dnsmasq" />
+  <remove-project name="platform/external/v8" />
 
   <!-- Framework repos -->
   <remove-project name="platform/frameworks/av" />
@@ -176,5 +178,7 @@
   <remove-project name="platform/system/vold" />
   <remove-project name="platform/system/extras" />
   <remove-project name="platform/system/nfc" />
+  <remove-project name="platform/system/connectivity/wificond" />
+  <remove-project name="platform/system/tools/hidl" />
 
 </manifest>
