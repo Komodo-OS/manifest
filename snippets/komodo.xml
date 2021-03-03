@@ -149,6 +149,8 @@
   <project path="external/libexif" name="external_libexif" remote="komodo" />
   <project path="external/freetype" name="external_freetype" remote="komodo" />
   <project path="external/libaom" name="external_libaom" remote="komodo" />
+  <project path="external/dnsmasq" name="external_dnsmasq" remote="komodo" />
+  <project path="external/v8" name="external_v8" remote="komodo" />
 
   <!-- System Repos -->
   <project path="system/bt" name="system_bt" remote="komodo" />
@@ -159,5 +161,7 @@
   <project path="system/vold" name="system_vold" remote="komodo" />
   <project path="system/extras" name="system_extras" remote="komodo" />
   <project path="system/nfc" name="system_nfc" remote="komodo" />
+  <project path="system/connectivity/wificond" name="system_connectivity_wificond" remote="komodo" />
+  <project path="system/tools/hidl" name="system_tools_hidl" remote="komodo" />
 
 </manifest>
