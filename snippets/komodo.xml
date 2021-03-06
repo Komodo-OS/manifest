@@ -161,7 +161,7 @@
   <project path="system/vold" name="system_vold" remote="komodo" />
   <project path="system/extras" name="system_extras" remote="komodo" />
   <project path="system/nfc" name="system_nfc" remote="komodo" />
-  <project path="system/connectivity/wificond" name="connectivity_wificond" remote="komodo" />
+  <project path="system/connectivity/wificond" name="system_connectivity_wificond" remote="komodo" />
   <project path="system/tools/hidl" name="system_tools_hidl" remote="komodo" />
 
 </manifest>
