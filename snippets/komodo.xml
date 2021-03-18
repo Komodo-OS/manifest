@@ -129,6 +129,7 @@
   <project name="vendor_qcom_opensource_fm-commonsys" path="vendor/qcom/opensource/fm-commonsys" remote="komodo" />
   <project name="vendor_qcom_opensource_audio" path="vendor/qcom/opensource/audio" remote="komodo" />
   <project name="vendor_qcom_opensource_interfaces" path="vendor/qcom/opensource/interfaces" remote="komodo" />
+  <project name="vendor_qcom_opensource_power" path="vendor/qcom/opensource/power" remote="komodo" />
 
   <!-- External -->
   <project name="external_selinux" path="external/selinux" remote="komodo" />
