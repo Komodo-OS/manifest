@@ -70,6 +70,7 @@
   <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/opt/telephony" />
+  <remove-project name="platform/frameworks/opt/net/wifi" />
 
   <!-- Build -->
   <remove-project name="platform/art" />
@@ -120,6 +121,7 @@
   <remove-project name="platform/hardware/qcom/msm8x84" />
   <remove-project name="platform/hardware/qcom/power" />
   <remove-project name="platform/hardware/ril" />
+  <remove-project name="platform/hardware/qcom/wlan" />
 
   <!-- Prebuilts -->
   <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
