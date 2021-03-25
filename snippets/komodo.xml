@@ -49,6 +49,7 @@
   <!-- External -->
   <project path="external/airbnb-lottie" name="external_airbnb-lottie" remote="komodo" />
   <project path="external/exfatprogs" name="external_exfatprogs" remote="komodo" />
+  <project path="external/faceunlock" name="external_faceunlock" remote="komodo" />
 
   <!-- HAL CAF -->
   <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" remote="komodo" />
@@ -107,6 +108,7 @@
   <!-- Packages service -->
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="komodo" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="komodo" />
+  <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="komodo" />
 
   <!-- Sepolicy -->
   <project path="device/komodo/sepolicy" name="device_komodo_sepolicy" remote="komodo" />
