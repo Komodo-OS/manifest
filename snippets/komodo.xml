@@ -56,6 +56,7 @@
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="komodo" />
   <project path="frameworks/base" name="frameworks_base" remote="komodo" />
+  <project path="frameworks/hardware/interfaces" name="frameworks_hardware_interfaces" remote="komodo" />
   <project path="frameworks/native" name="frameworks_native" remote="komodo" />
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="komodo" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="komodo" />
@@ -111,6 +112,7 @@
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="komodo" />
   <project path="packages/apps/FirefoxLite" name="packages_apps_FirefoxLite" remote="komodo" />
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="komodo" />
+  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="komodo" />
   <!--project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="komodo" -->
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="komodo" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="komodo" />
@@ -118,6 +120,7 @@
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="komodo" />
   <project path="packages/apps/Traceur" name="packages_apps_Traceur" remote="komodo" />
   <project path="packages/apps/Updates" name="packages_apps_Updates" remote="komodo" />
+  <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="komodo" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="komodo" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="komodo" />
   <project path="packages/services/BuiltInPrintService" name="packages_services_BuiltInPrintService" remote="komodo" />
