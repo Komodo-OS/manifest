@@ -95,6 +95,7 @@
   <project path="system/update_engine" name="system_update_engine" remote="komodo" />
   <project path="system/bt" name="system_bt" remote="komodo" />
   <project path="system/netd" name="system_netd" remote="komodo" />
+  <project path="system/security" name="system_security" remote="komodo" />
 
   <!-- Packages repos -->
   <project path="packages/apps/KomodoSettings" name="packages_apps_KomodoSettings" remote="komodo" />
