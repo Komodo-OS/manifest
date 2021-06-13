@@ -155,6 +155,9 @@
   <project path="external/libaom" name="external_libaom" remote="komodo" />
   <project path="external/dnsmasq" name="external_dnsmasq" remote="komodo" />
   <project path="external/v8" name="external_v8" remote="komodo" />
+  <project path="external/libavc" name="external_libavc" remote="komodo" />
+  <project path="external/chromium-libpac" name="external_chromium-libpac" remote="komodo" />
+  <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="komodo" />
 
   <!-- System Repos -->
   <project path="system/bt" name="system_bt" remote="komodo" />

@@ -64,6 +64,7 @@
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/sqlite" />
   <remove-project name="platform/external/chromium-webview" />
+  <remove-project name="platform/external/chromium-libpac" />
   <remove-project name="platform/external/libcxx" />
   <remove-project name="platform/external/aac" />
   <remove-project name="platform/external/libexif" />
