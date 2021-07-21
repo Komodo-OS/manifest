@@ -17,6 +17,7 @@
   <project path="hardware/qcom-caf/vr" name="android_hardware_qcom_vr" remote="lineage" />
   <project path="hardware/qcom-caf/bt" name="android_hardware_qcom_bt" remote="lineage" revision="lineage-18.0" />
   <project path="hardware/ril" name="android_hardware_ril" remote="lineage" revision="lineage-18.0" />
+  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="lineage" />
   
   <!-- CodeAurora additions -->
   <project path="hardware/qcom-caf/msm8952/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-18.0-caf-msm8952" remote="lineage" />
