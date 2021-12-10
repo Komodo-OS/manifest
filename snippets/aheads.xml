@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+
+  <remote  name="komodo"
+           fetch="https://github.com/Komodo-OS-Rom/"
+           revision="12"
+           sync-j="16" />
+
+  <remote  name="dudu"
+           fetch="https://github.com/BiancaProject/"
+           revision="12" />
+
+  <remote  name="arrow"
+           fetch="https://github.com/ArrowOS/"
+           revision="arrow-12.0" />
+
+  <remote  name="lineage"
+           fetch="https://github.com/LineageOS/"
+           revision="lineage-18.1" />
+
+  <remote  name="nad"
+           fetch="https://github.com/Nusantara-ROM/"
+           revision="12" />
+
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <!-- Gitlab remote -->
+  <remote  name="gitlab"
+           fetch="https://gitlab.com/" />
+
+  <!-- Private remote -->
+  <remote  name="priv"
+           fetch="ssh://git@github.com/Komodo-OS-Rom/"
+           revision="12" />
+ 
+  <!--<include name="snippets/remove.xml" />
+  <include name="snippets/lineage.xml" />
+  <include name="snippets/komodo.xml" />-->
+
+</manifest>
