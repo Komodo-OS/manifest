@@ -84,6 +84,7 @@
   <!-- Packages -->
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="komodo" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="komodo" />
+  <project path="packages/apps/Reptools" name="packages_apps_Reptools" remote="komodo" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="komodo" />
   <project path="packages/apps/SimpleDeviceConfig" name="packages_apps_SimpleDeviceConfig" remote="komodo" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="komodo" />

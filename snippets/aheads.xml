@@ -3,7 +3,7 @@
 
 
   <remote  name="komodo"
-           fetch="https://github.com/Komodo-OS-Rom/"
+           fetch="https://github.com/Komodo-OS/"
            revision="12"
            sync-j="16" />
 
@@ -35,8 +35,8 @@
            fetch="ssh://git@github.com/Komodo-OS-Rom/"
            revision="12" />
  
-  <!--<include name="snippets/remove.xml" />
+  <include name="snippets/remove.xml" />
   <include name="snippets/lineage.xml" />
-  <include name="snippets/komodo.xml" />-->
+  <include name="snippets/komodo.xml" />
 
 </manifest>
