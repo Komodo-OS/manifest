@@ -12,7 +12,7 @@
 ```bash
 
 # Initialize local repository
-repo init -u https://github.com/Komodo-OS-Rom/manifest -b 12
+repo init -u https://github.com/Komodo-OS/manifest -b 12
 
 # Sync
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
@@ -34,7 +34,7 @@ $ mka komodo -jX
 
 ### Developer ###
 
-- [Become maintainer for your device](https://github.com/Komodo-OS-Rom/manifest/wiki/Maintainers-Requirements)
+- [Become maintainer for your device](https://github.com/Komodo-OS/manifest/wiki/Maintainers-Requirements)
 
 ---------------------------------------------------------------------------------------
  Credits:
