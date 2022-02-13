@@ -94,6 +94,7 @@
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="komodo" />
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="komodo" />
   <project path="packages/modules/Permission" name="packages_modules_Permission" remote="komodo" />
+  <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="komodo" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="komodo" />
 
   <!-- Prebuilts -->
