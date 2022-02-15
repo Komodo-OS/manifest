@@ -123,6 +123,9 @@
 
   <!-- Vendor -->
   <project path="vendor/komodo" name="vendor_komodo" remote="komodo" />
+  <project path="vendor/komodo" name="vendor_komodo" remote="komodo" >
+    <copyfile src="build.sh" dest="build.sh" />
+  </project>
   <project path="vendor/gapps" name="arrowos-project/android_vendor_gapps" remote="gitlab" clone-depth="1" revision="arrow-12.0" />
   <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="komodo" />
   <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="vendor_qcom_opensource_commonsys_bluetooth_ext" remote="komodo"/>
