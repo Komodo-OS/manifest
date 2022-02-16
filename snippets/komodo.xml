@@ -122,7 +122,6 @@
   <project path="system/vold" name="system_vold" remote="komodo" />
 
   <!-- Vendor -->
-  <project path="vendor/komodo" name="vendor_komodo" remote="komodo" />
   <project path="vendor/komodo" name="vendor_komodo" remote="komodo" >
     <copyfile src="build.sh" dest="build.sh" />
   </project>
