@@ -25,6 +25,7 @@
 
   <!-- External -->
   <project path="external/colorkt" name="ProtonAOSP/android_external_colorkt" remote="github" revision="sc" />
+  <project path="external/faceunlock" name="Komodo-OS-Rom/external_faceunlock" remote="gitlab" revision="12" />
   <project path="external/selinux" name="external_selinux" remote="komodo" />
   <project path="external/themelib" name="ProtonAOSP/android_external_themelib" remote="github" revision="sc" />
   <project path="external/tinycompress" name="external_tinycompress" remote="komodo" />
@@ -87,6 +88,7 @@
 
   <!-- Packages -->
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="komodo" />
+  <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="komodo" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="komodo" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="komodo" />
   <project path="packages/apps/Reptools" name="packages_apps_Reptools" remote="komodo" />
