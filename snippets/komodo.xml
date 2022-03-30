@@ -6,6 +6,7 @@
   <project path="art" name="art" remote="komodo" />
   <project path="bionic" name="bionic" remote="komodo" />
   <project path="bootable/recovery" name="bootable_recovery" remote="komodo" />
+  <project path="libcore" name="libcore" remote="komodo" />
  
   <!-- Build -->
   <project path="build/make" name="build" remote="komodo" >
