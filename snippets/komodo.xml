@@ -90,6 +90,7 @@
   <!-- Packages -->
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="komodo" />
   <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="komodo" />
+  <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="priv-device" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="komodo" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="komodo" />
   <project path="packages/apps/Reptools" name="packages_apps_Reptools" remote="komodo" />
