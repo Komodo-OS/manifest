@@ -31,8 +31,8 @@
            fetch="https://gitlab.com/" />
 
   <!-- Private remote -->
-  <remote  name="priv"
-           fetch="ssh://git@github.com/Komodo-OS-Rom/"
+  <remote  name="priv-device"
+           fetch="ssh://git@github.com/Komodo-OS-Devices/"
            revision="12" />
  
   <include name="snippets/remove.xml" />
