@@ -4,7 +4,7 @@
 
   <remote  name="komodo"
            fetch="https://github.com/Komodo-OS/"
-           revision="12.2"
+           revision="12.1"
            sync-j="16" />
 
   <remote  name="dudu"
