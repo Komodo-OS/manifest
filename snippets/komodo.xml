@@ -131,6 +131,7 @@
     <copyfile src="build.sh" dest="build.sh" />
   </project>
   <project path="vendor/gms" name="irfn4566/vendor_gms" remote="gitlab" clone-depth="1" revision="12.1" />
+  <project path="vendor/lawnicons" name="vendor_lawnicons" remote="komodo" />
   <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="komodo" revision="12" />
   <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="vendor_qcom_opensource_commonsys_bluetooth_ext" remote="komodo" revision="12" />
   <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="vendor_qcom_opensource_commonsys_packages_apps_Bluetooth" remote="komodo" />
