@@ -27,6 +27,7 @@
   <!-- External -->
   <project path="external/colorkt" name="ProtonAOSP/android_external_colorkt" remote="github" revision="sc-v2" />
   <project path="external/faceunlock" name="Komodo-OS-Rom/external_faceunlock" remote="gitlab" revision="12" />
+  <project path="external/ksoap2" name="external_ksoap2" remote="komodo" />
   <project path="external/selinux" name="external_selinux" remote="komodo" />
   <project path="external/themelib" name="ProtonAOSP/android_external_themelib" remote="github" revision="sc-v2" />
   <project path="external/tinycompress" name="external_tinycompress" remote="komodo" />
