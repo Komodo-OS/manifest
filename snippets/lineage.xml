@@ -59,7 +59,6 @@
   <project path="vendor/qcom/opensource/wfd-commonsys" name="android_vendor_qcom_opensource_wfd-commonsys" remote="lineage" />
 
   <!-- System -->
-  <project path="system/extras" name="android_system_extras" remote="lineage" />
   <project path="system/libhidl" name="android_system_libhidl" remote="lineage" />
   <project path="system/qcom" name="android_system_qcom" remote="lineage" />
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="lineage" revision="lineage-18.1" />

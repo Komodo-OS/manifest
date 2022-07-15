@@ -124,6 +124,7 @@
   <!-- System -->
   <project path="system/bt" name="system_bt" remote="komodo" />
   <project path="system/core" name="system_core" remote="komodo" />
+  <project path="system/extras" name="system_extras" remote="komodo" />
   <project path="system/hardware/interfaces" name="system_hardware_interfaces" remote="komodo" />
   <!--<project path="system/qcom" name="system_qcom" remote="komodo" /-->
   <project path="system/memory/lmkd" name="system_memory_lmkd" remote="komodo" />
