@@ -122,6 +122,7 @@
   <project path="system/sepolicy" name="system_sepolicy" remote="komodo" />
 
   <!-- System -->
+  <project path="system/apex" name="system_apex" remote="komodo" />
   <project path="system/bt" name="system_bt" remote="komodo" />
   <project path="system/core" name="system_core" remote="komodo" />
   <project path="system/extras" name="system_extras" remote="komodo" />
