@@ -69,6 +69,7 @@
   <remove-project name="device/ti/beagle-x15-kernel" />
  
   <!-- External -->
+  <remove-project name="platform/external/erofs-utils" />
   <remove-project name="platform/external/ksoap2" />
   <remove-project name="platform/external/libffi" />
   <remove-project name="platform/external/selinux" />
