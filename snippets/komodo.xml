@@ -2,7 +2,7 @@
 <manifest>
 
   <remote name="komodo"
-          fetch="https://github.com/Komodo-OS-Rom"
+          fetch="https://github.com/Komodo-OS"
           revision="11"
           review="gerrit.komodo-os.my.id" />
 
