@@ -31,6 +31,7 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="build/blueprint" name="build_blueprint" remote="komodo" />
+  <project path="libcore" name="libcore" remote="komodo" />
   <project path="hardware/qcom-caf/common" name="hardware_qcom-caf_common" remote="komodo" >
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
@@ -50,9 +51,14 @@
   <project path="device/qcom/common" name="StatiXOS/android_device_qcom_common" remote="github" revision="11" />
 
   <!-- External -->
+  <project name="external_aac" path="external/aac" remote="komodo" />
+  <project name="external_libavc" path="external/libavc" remote="komodo" />
+  <project name="external_libexif" path="external/libexif" remote="komodo" />
   <project path="external/airbnb-lottie" name="external_airbnb-lottie" remote="komodo" />
   <project path="external/exfatprogs" name="external_exfatprogs" remote="komodo" />
   <project path="external/faceunlock" name="external_faceunlock" remote="komodo" />
+  <project name="external_robolectric-shadows" path="external/robolectric-shadows" remote="komodo" />
+  <project name="external_tremolo" path="external_tremolo" remote="komodo" />
 
   <!-- HAL CAF -->
   <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" remote="komodo" />
@@ -148,5 +154,10 @@
   
   <!-- Recovery -->
   <project name="bootable_recovery" path="bootable/recovery" remote="komodo" />
+
+  <!-- System -->
+  <project name="system_tools_aidl" path="system/tools/aidl" remote="komodo" />
+  <project name="system_extras" path="system/extras" remote="komodo" />
+  <project name="system_libhidl" path="system/libhidl" remote="komodo" />
 
 </manifest>
