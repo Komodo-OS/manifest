@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- KomodoOS remote -->
+  <remote  name="komodo"
+           fetch="https://github.com/Komodo-OS/"
+           revision="13"
+           sync-j="16" />
+
+ <!-- PixelExperience remote -->
+  <remote name="pixel"
+          fetch="https://github.com/PixelExperience"
+          revision="thirteen" />
+
+  <remote name="pixel-gitlab-self-hosted"
+          fetch="https://gitlab.pixelexperience.org/android"
+          revision="thirteen" />
+
+  <!-- Github remote -->
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <!-- Gitlab remote -->
+  <remote  name="gitlab"
+           fetch="https://gitlab.com/" />
+
+  <!-- Arrow Gitlab remote -->
+  <remote  name="arrow-gitlab"
+           fetch="https://gitlab.com/arrowos-project" 
+           review="https://review.arrowos.net/"
+           revision="refs/heads/arrow-13.0" />
+
+  <include name="snippets/remove.xml" />
+  <include name="snippets/external.xml" />
+  <include name="snippets/komodo.xml" />
+
+</manifest>

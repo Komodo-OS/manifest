@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- General repos -->
+  <project path="art" name="art" remote="komodo" />
+  <project path="bionic" name="bionic" remote="komodo" />
+  <project path="build/make" name="build" remote="komodo">
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="build_soong" remote="komodo" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  <project path="manifest" name="manifest" remote="komodo" />
+
+  <!-- Framework repos -->
+  <project path="frameworks/av" name="frameworks_av" remote="komodo" />
+  <project path="frameworks/base" name="frameworks_base" remote="komodo" />
+  <project path="frameworks/native" name="frameworks_native" remote="komodo" />
+  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="komodo" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="komodo" />
+  <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="komodo" />
+
+  <!-- Packages repos -->
+  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="komodo" />
+  <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="komodo" />
+  <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="komodo" />
+  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="komodo" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="komodo" />
+  <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="komodo" />
+  <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="komodo" />
+  <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="komodo" />
+  <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="komodo" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="komodo" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="komodo" />
+
+  <!-- System repos -->
+  <project path="system/core" name="system_core" remote="komodo" />
+  <project path="system/media" name="system_media" remote="komodo" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="komodo" />
+  <project path="system/vold" name="system_vold" remote="komodo" />
+
+  <!-- Vendor repos -->
+  <project path="vendor/komodo" name="vendor_komodo" remote="komodo" />
+  
+</manifest> 
