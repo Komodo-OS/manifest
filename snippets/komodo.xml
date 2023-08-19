@@ -5,10 +5,14 @@
           fetch="https://github.com/Komodo-OS"
           revision="refs/heads/13" />
 
+  <remote name="komodo-gitlab"
+          fetch="https://gitlab.com/komodo-os-rom/"
+          revision="refs/heads/13" />
+
   <remote name="gitlab"
           fetch="https://gitlab.com" />
 
-    <remote name="pixel"
+  <remote name="pixel"
           fetch="https://github.com/PixelExperience"
           revision="thirteen"
           review="gerrit.pixelexperience.org" />
@@ -176,6 +180,8 @@
   <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1" />
   <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" clone-depth="1" revision="refs/tags/android-13.0.0_r0.65" remote="aosp" />
   <project path="prebuilts/tools-komodo" name="prebuilts_tools-komodo" remote="komodo" clone-depth="1" />
+  <project path="prebuilts/clang/host/linux-x86/clang-r475365b" name="android_prebuilts_clang_host_linux-x86_clang-r475365b" remote="komodo-gitlab" clone-depth="1" />
+  <project path="prebuilts/clang/host/linux-x86/clang-r487747" name="android_prebuilts_clang_host_linux-x86_clang-r487747" remote="komodo-gitlab" clone-depth="1" />
 
   <!-- Pixel 7/7 Pro kernel modules -->
   <project path="kernel/google/gs201/private/google-modules/amplifiers" name="kernel/google-modules/amplifiers" groups="pixel-extra" remote="aosp" revision="refs/tags/android-13.0.0_r0.32" />
