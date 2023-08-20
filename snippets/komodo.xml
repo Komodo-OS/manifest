@@ -135,6 +135,7 @@
   <project path="hardware/xiaomi" name="hardware_xiaomi" remote="komodo" />
 
   <!-- External repos -->
+  <project path="external/dwarves" name="platform/external/dwarves" remote="aosp" revision="3c8f7e8b2cf7ff902b71c42d00fda30f30114b07" />
   <project path="external/tinycompress" name="external_tinycompress" remote="komodo" />
   <project path="external/selinux" name="external_selinux" remote="komodo" />
 
