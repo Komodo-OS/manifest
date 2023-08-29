@@ -147,6 +147,7 @@
   <project path="packages/apps/Aperture" name="packages_apps_Aperture" remote="komodo" />
 
   <!-- QCOM Sepolicies -->
+  <project path="device/komodo/sepolicy" name="device_komodo_sepolicy" remote="komodo" />
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="komodo" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="komodo" />
   <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="komodo" />
