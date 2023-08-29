@@ -147,10 +147,10 @@
   <project path="packages/apps/Aperture" name="packages_apps_Aperture" remote="komodo" />
 
   <!-- QCOM Sepolicies -->
-  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="pixel" />
-  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="pixel" />
-  <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="pixel" />
-  <project path="device/qcom/sepolicy_vndr-legacy-um" name="device_qcom_sepolicy_vndr-legacy-um" groups="qcom,lahaina" remote="pixel" />
+  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="komodo" />
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="komodo" />
+  <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="komodo" />
+  <project path="device/qcom/sepolicy_vndr-legacy-um" name="device_qcom_sepolicy_vndr-legacy-um" groups="qcom,lahaina" remote="komodo" />
 
   <!-- Services repos -->
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="komodo" />
