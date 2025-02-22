@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Rootdir -->
+  <remove-project name="LineageOS/android_bionic" />
+
+  <!-- Bootable -->
+  <remove-project name="LineageOS/android_bootable_recovery" />
+
+  <!-- Build -->
+  <remove-project name="LineageOS/android_build" />
+  <remove-project name="LineageOS/android_build_soong" />
+
+  <!-- Frameworks -->
+  <remove-project name="LineageOS/android_frameworks_av" />
+  <remove-project name="LineageOS/android_frameworks_base" />
+  <remove-project name="LineageOS/android_frameworks_native" />
+
+  <!-- Packages -->
+  <remove-project name="LineageOS/android_packages_apps_Settings" />
+  <remove-project name="LineageOS/android_packages_apps_SetupWizard" />
+  <remove-project name="LineageOS/android_packages_apps_LineageParts" />
+  <remove-project name="LineageOS/android_packages_apps_Trebuchet" />
+  <remove-project name="LineageOS/android_packages_apps_Updater" />
+
+  <!-- SDK -->
+  <remove-project name="LineageOS/android_lineage-sdk" />
+
+  <!-- System -->
+  <remove-project name="LineageOS/android_system_core" />
+
+  <!-- Vendor -->
+  <remove-project name="LineageOS/android_vendor_lineage" />
+
+</manifest>

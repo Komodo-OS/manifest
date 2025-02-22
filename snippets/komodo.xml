@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- KomodoOS -->
+  <remote  name="komodo"
+           fetch="https://github.com/Komodo-OS/"
+           revision="15" />
+
+  <!-- Rootdir -->
+  <project path="bionic" name="bionic" groups="pdk" remote="komodo" />
+  <project path="manifest" name="manifest" remote="komodo" />
+
+  <!-- Bootable -->
+  <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="komodo" />
+
+  <!-- Build -->
+  <project path="build/make" name="build" groups="pdk,sysui-studio" remote="komodo" >
+    <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk" />
+    <linkfile dest="build/buildspec.mk.default" src="buildspec.mk.default" />
+    <linkfile dest="build/core" src="core" />
+    <linkfile dest="build/envsetup.sh" src="envsetup.sh" />
+    <linkfile dest="build/target" src="target" />
+    <linkfile dest="build/tools" src="tools" />
+  </project>
+  <project path="build/soong" name="build_soong" groups="pdk,tradefed" remote="komodo" >
+    <linkfile dest="Android.bp" src="root.bp" />
+    <linkfile dest="bootstrap.bash" src="bootstrap.bash" />
+  </project>
+
+  <!-- Frameworks -->
+  <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="komodo" />
+  <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="komodo" />
+  <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="komodo" />
+
+  <!-- Packages -->
+  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="komodo" />
+  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="komodo" />
+  <project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" remote="komodo" />
+  <project path="packages/apps/LineageParts" name="packages_apps_LineageParts" remote="komodo"/>
+
+  <!-- SDK -->
+  <project path="lineage-sdk" name="lineage-sdk" remote="komodo" />
+
+  <!-- System -->
+  <project path="system/core" name="system_core" groups="pdk" remote="komodo" />
+
+  <!-- Vendor -->
+  <project path="vendor/komodo" name="vendor_komodo" remote="komodo" />
+
+</manifest>
