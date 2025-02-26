@@ -2,9 +2,12 @@
 <manifest>
 
   <!-- KomodoOS -->
-  <remote  name="komodo"
+  <remote name="komodo"
            fetch="https://github.com/Komodo-OS/"
            revision="15" />
+
+  <remote name="gitlab"
+           fetch="https://gitlab.com/" />
 
   <!-- Rootdir -->
   <project path="bionic" name="bionic" groups="pdk" remote="komodo" />
