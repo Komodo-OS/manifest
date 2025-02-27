@@ -49,6 +49,7 @@
 
   <!-- Vendor -->
   <project path="vendor/komodo" name="vendor_komodo" remote="komodo" />
+  <project path="vendor/komodo-preference" name="vendor_komodo-preference" remote="komodo" />
   <project path="vendor/google/gms" name="komodo-os-rom/vendor_google_gms" remote="gitlab" revision="15" clone-depth="1" />
 
 </manifest>
