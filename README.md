@@ -26,7 +26,7 @@ repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 $ . build/envsetup.sh
 
 # Choose a target
-$ lunch komodo_codename-ap4a-userdebug
+$ lunch komodo_codename-userdebug
 
 # Build the code
 $ mka komodo -jX
