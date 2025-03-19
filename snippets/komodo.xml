@@ -6,6 +6,9 @@
            fetch="https://github.com/Komodo-OS/"
            revision="15" />
 
+  <remote name="Komodo-OS-Devices"
+           fetch="https://github.com/Komodo-OS-Devices" />
+
   <remote name="gitlab"
            fetch="https://gitlab.com/" />
 
