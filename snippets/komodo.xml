@@ -33,6 +33,9 @@
     <linkfile dest="bootstrap.bash" src="bootstrap.bash" />
   </project>
 
+  <!-- Device -->
+  <project path="device/komodo/sepolicy" name="device_komodo_sepolicy" remote="komodo" />
+
   <!-- Frameworks -->
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="komodo" />
   <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="komodo" />
