@@ -28,7 +28,6 @@
 
   <!-- System -->
   <remove-project name="LineageOS/android_system_core" />
-  <remove-project name="LineageOS/android_system_sepolicy" />
 
   <!-- Vendor -->
   <remove-project name="LineageOS/android_vendor_lineage" />
