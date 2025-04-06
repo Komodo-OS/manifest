@@ -33,6 +33,9 @@
     <linkfile dest="bootstrap.bash" src="bootstrap.bash" />
   </project>
 
+  <!-- CodeLinaro additions -->
+  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy" groups="qcom,sdm660" revision="15-legacy-um" remote="komodo" />
+
   <!-- Device -->
   <project path="device/komodo/sepolicy" name="device_komodo_sepolicy" remote="komodo" />
 
