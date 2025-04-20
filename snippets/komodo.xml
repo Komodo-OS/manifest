@@ -28,6 +28,7 @@
     <linkfile dest="build/target" src="target" />
     <linkfile dest="build/tools" src="tools" />
   </project>
+  <project path="build/release" name="build_release" groups="pdk,tradefed" remote="komodo" />
   <project path="build/soong" name="build_soong" groups="pdk,tradefed" remote="komodo" >
     <linkfile dest="Android.bp" src="root.bp" />
     <linkfile dest="bootstrap.bash" src="bootstrap.bash" />
